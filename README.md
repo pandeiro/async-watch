@@ -8,7 +8,7 @@ channel abstraction for CPU efficiency and a dead-simple API.
 
 ## Clojars
 
-    [async-watch "0.1.0"]
+    [async-watch "0.1.1"]
 
 ## Usage
 

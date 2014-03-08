@@ -1,4 +1,4 @@
-(defproject async-watch "0.1.0"
+(defproject async-watch "0.1.1"
   :description "A filesystem watcher using clojure.core.async channels"
   :url "http://github.com/pandeiro/async-watch"
   :license {:name "Eclipse Public License"
