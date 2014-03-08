@@ -11,7 +11,7 @@ modifications within those paths."
   [paths]
   (let [paths   (if (coll? paths) paths (vector paths))
         channel (chan)]
-    (swap! watch-threads conj
+    (swap! changes-watchers conj
            (future
              (watch/start-watch
               (mapv (fn [path] {:path        path
