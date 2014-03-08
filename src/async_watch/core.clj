@@ -2,7 +2,7 @@
   (:require [clojure.core.async :as async :refer [go chan put! <!]]
             [clojure-watch.core :as watch]))
 
-(def changes-watchers (atom '()))
+(def ^:private changes-watchers (atom '()))
 
 (defn changes-in
   "Given a path or collection of paths as strings, sets up watchers in individual
